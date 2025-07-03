@@ -1,0 +1,8 @@
+1. Write a Java program for the follwoing : (10 points)
+Take user input -> “Java  is fun!”
+	1. Find all the vowels and their indexes from the string input.
+	2. Find the last index of letter ‘a’
+	3. Replace the substring “fun” with “awesome”
+	4. Find all the spaces and special characters and their indexes
+	5. Find all the digits from the string
+2. Write a Java program to check if a user is eligible to take the driving license test. If user’s age is 16 your program should print “you are eligible for the DL test”. If user’s age is 15 your program should print “come back next year”. If user’s age is less than 14 , it should print – “Come back after <no. of years> years. If user’s age is more than 80 years, your program should print "you are not eligible".   If user’s age is more than 100 years, your program should print "Invalid input." (10 points)

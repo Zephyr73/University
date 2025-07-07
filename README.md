@@ -11,7 +11,40 @@ Backup of my CSE course assignments and class notes.
 |[MAC 125][MAC 125 dir] | [Advanced C++ Programming][MAC 125]   | C++      |
 |[MAC 190][MAC 190 dir] | [Object Oriented Programming][MAC 190]| Java     |
 
+# For contributing
+Please maintain a consistent folder structure.
+- **Do not rename the parent directories:** The folder names `Assignments`, `Classwork`, `Slides`, and `Questions` must remain exactly as shown, unless you have a different type of folder content. This ensures consistency across all courses and institutions.
+- Assignments and Classwork should have similar nested structures:
+  - Use numbered folders like `Assignment 1`, `Class 1`.
+  - Inside these, you can have multiple projects or files.
+- Use meaningful names inside project folders.
+- If adding new courses or institutions, follow the exact naming conventions at their levels.
 
+```
+Repo/
+├─ Institution Name/
+│  ├─ Course Code/
+│  │  ├─ Assignments/
+│  │  │  ├─ Assignment 1/
+│  │  │  │  ├─ Project 1/
+│  │  │  │  ├─ Project 2.ext
+│  │  │  │  └─ ...
+│  │  │  ├─ Assignment2.ext
+│  │  │  └─ ...
+│  │  ├─ Classwork/
+│  │  │  ├─ Class 1/
+│  │  │  │  ├─ Project 1/
+│  │  │  │  ├─ Project 2.ext
+│  │  │  │  └─ ...
+│  │  │  ├─ Class2.ext
+│  │  │  └─ ...
+│  │  ├─ Slides/
+│  │  │  ├─ Slide1.extension
+│  │  │  └─ ...
+│  │  ├─ Questions/
+│  │  │  ├─ Question1.extension
+│  │  │  └─ ...
+```
 
 
 [CSE 110]: https://www.bracu.ac.bd/avilable-program/bachelor-science-computer-science-cs#:~:text=Course%20Details-,CSE%20110%3A%20Programming%20Language%20I%20(3%20credits),as%20well%20as%20weekly%20laboratory%20assignments%20to%20reinforce%20the%20lecture%20material.,-Suggested%20Books%3A

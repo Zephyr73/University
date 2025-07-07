@@ -14,6 +14,17 @@ This repository was originally created as a backup for my CSE classwork and assi
 
 ## For contributing
 Please follow these guidelines when contributing to maintain consistency and clarity across the repository:
+### ⚠️ Privacy Notice
+
+Please **do not include any personal information** in your contributions.
+
+- **File names**, **comments**, and **file contents** must not contain:
+  - Your full name, student ID, email, or contact information.
+  - Login credentials or API keys.
+  - Sensitive personal or academic data.
+
+All contributions should remain **anonymous and general-purpose**, so they can be shared publicly without privacy concerns.
+
 ### Folder Structure
 - **Do not rename the parent directories:** The folder names `Assignments`, `Classwork`, `Slides`, and `Questions` must remain exactly as shown, unless you have a different type of folder content. This ensures consistency across all courses and institutions.
 - Assignments and Classwork should have similar nested structures:

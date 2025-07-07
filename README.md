@@ -1,18 +1,20 @@
 # University
-Backup of my CSE course assignments and class notes.
+This repository was originally created as a backup for my CSE classwork and assignments. However, I have now decided to make it public to allow individuals from various institutions around the world to contribute.
 
-| Course                | Description                           | Language |
-|-----------------------|---------------------------------------|----------|
-|[CSE 110][CSE 110 dir] | [Introduction to Python][CSE 110]     | Python   |
-|[CSE 111][CSE 111 dir] | [Data structures in Python][CSE 111]  | Python   |
-|[CSE 421][CSE 421 dir] | [Computer Networks][CSE 421]          | Slides   |
-|        |                                       |          |
-|[MAC 101][MAC 101 dir] | [Introduction to C++][MAC 101]        | C++      |
-|[MAC 125][MAC 125 dir] | [Advanced C++ Programming][MAC 125]   | C++      |
-|[MAC 190][MAC 190 dir] | [Object Oriented Programming][MAC 190]| Java     |
 
-# For contributing
-Please maintain a consistent folder structure.
+| Institution | Course                | Description                           | Language |
+|-------------|-----------------------|---------------------------------------|----------|
+| BRAC University |[CSE 110][CSE 110 dir] | [Introduction to Python][CSE 110]     | Python   |
+| BRAC University |[CSE 111][CSE 111 dir] | [Data structures in Python][CSE 111]  | Python   |
+| BRAC University |[CSE 421][CSE 421 dir] | [Computer Networks][CSE 421]          | Slides   |
+|                 |        |                                       |          |
+| LaGuardia Community College |[MAC 101][MAC 101 dir] | [Introduction to C++][MAC 101]        | C++      |
+| LaGuardia Community College |[MAC 125][MAC 125 dir] | [Advanced C++ Programming][MAC 125]   | C++      |
+| LaGuardia Community College |[MAC 190][MAC 190 dir] | [Object Oriented Programming][MAC 190]| Java     |
+
+## For contributing
+Please follow these guidelines when contributing to maintain consistency and clarity across the repository:
+### Folder Structure
 - **Do not rename the parent directories:** The folder names `Assignments`, `Classwork`, `Slides`, and `Questions` must remain exactly as shown, unless you have a different type of folder content. This ensures consistency across all courses and institutions.
 - Assignments and Classwork should have similar nested structures:
   - Use numbered folders like `Assignment 1`, `Class 1`.
@@ -46,6 +48,13 @@ Repo/
 │  │  │  └─ ...
 ```
 
+### README Table Guidelines
+- **Add your course to the table** in the same format.
+- **Sort the table rows in ascending alphabetical order and course code**.
+- Leave **one blank row** between **institutes** starting with different letters.
+- **Use reference-style links** at the bottom (like `[Course Name]: URL`).
+- **Align your columns** with spaces for clean editing and viewing.
+- Keep the table neat and readable in both markdown render and raw `.md` file.
 
 [CSE 110]: https://www.bracu.ac.bd/avilable-program/bachelor-science-computer-science-cs#:~:text=Course%20Details-,CSE%20110%3A%20Programming%20Language%20I%20(3%20credits),as%20well%20as%20weekly%20laboratory%20assignments%20to%20reinforce%20the%20lecture%20material.,-Suggested%20Books%3A
 [CSE 110 dir]: https://github.com/Zephyr73/University/tree/main/BRAC%20University/CSE%20110

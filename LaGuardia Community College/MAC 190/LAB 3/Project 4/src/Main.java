@@ -7,6 +7,10 @@ class Circle {
         this.radius = 0;
     }
 
+     public Circle(double radius) {
+        this.radius = radius;
+     }
+
     public void setRadius(double radius) {
         this.radius = radius;
     }
@@ -37,6 +41,10 @@ public class Main {
         System.out.println("Radius: " + circle.getRadius());
         System.out.println("Area: " + circle.getArea());
         System.out.println("Circumference: " + circle.getCircumference());
+
+        Circle circle2 = new Circle(5);
+        System.out.println();
+        System.out.println("Area: " + circle2.getArea());
     }
 }
 

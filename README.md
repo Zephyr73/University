@@ -2,12 +2,12 @@
 This repository was originally created as a backup for my CSE classwork and assignments. However, I have now decided to make it public to allow individuals from various institutions around the world to contribute.
 
 
-| Institution | Course                | Description                           | Language |
-|-------------|-----------------------|---------------------------------------|----------|
-| BRAC University |[CSE 110][CSE 110 dir] | [Introduction to Python][CSE 110]     | Python   |
-| BRAC University |[CSE 111][CSE 111 dir] | [Data structures in Python][CSE 111]  | Python   |
-| BRAC University |[CSE 421][CSE 421 dir] | [Computer Networks][CSE 421]          | Slides   |
-|                 |        |                                       |          |
+| Institution                 | Course                | Description                           | Language |
+|-----------------------------|-----------------------|---------------------------------------|----------|
+| BRAC University             |[CSE 110][CSE 110 dir] | [Introduction to Python][CSE 110]     | Python   |
+| BRAC University             |[CSE 111][CSE 111 dir] | [Data structures in Python][CSE 111]  | Python   |
+| BRAC University             |[CSE 421][CSE 421 dir] | [Computer Networks][CSE 421]          | Slides   |
+|                             |                       |                                       |          |
 | LaGuardia Community College |[MAC 101][MAC 101 dir] | [Introduction to C++][MAC 101]        | C++      |
 | LaGuardia Community College |[MAC 125][MAC 125 dir] | [Advanced C++ Programming][MAC 125]   | C++      |
 | LaGuardia Community College |[MAC 190][MAC 190 dir] | [Object Oriented Programming][MAC 190]| Java     |

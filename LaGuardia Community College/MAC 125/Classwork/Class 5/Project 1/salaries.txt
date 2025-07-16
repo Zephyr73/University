@@ -1,0 +1,2 @@
+Full time salary of John: 4000.000000
+Part time salary of Alice: 2000.000000

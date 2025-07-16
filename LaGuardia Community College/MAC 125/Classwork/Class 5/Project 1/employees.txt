@@ -1,0 +1,2 @@
+FullTime John 4000
+PartTime Alice 20 100

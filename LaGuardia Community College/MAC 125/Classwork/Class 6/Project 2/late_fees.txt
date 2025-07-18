@@ -1,0 +1,4 @@
+Book: Hamlet
+Late Fee: $1.500000
+DVD: Matrix
+Late Fee: $3.000000

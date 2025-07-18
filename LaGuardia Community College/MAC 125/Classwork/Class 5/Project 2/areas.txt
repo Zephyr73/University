@@ -1,0 +1,5 @@
+Circle radius: 3.500000
+Area: 38.465000
+Rectangle side: 4.000000
+Rectangle length: 6.000000
+Area: 24.000000

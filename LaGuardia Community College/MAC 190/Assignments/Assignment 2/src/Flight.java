@@ -4,17 +4,18 @@ import java.util.ArrayList;
 public class Flight implements Reservable, PassengerViewable {
     private SeatMap seatMap;
     private ArrayList<Passenger> passengers;
+    private int maxSeats;
 
     public Flight(int rows) {
         seatMap = new SeatMap(rows);
         passengers = new ArrayList<>();
+        maxSeats = rows * 4;
     }
+
     @Override
-    public void reserveSeat(Passenger passenger, int row, char seatLetter) {
-        int col = seatLetter - 'A';
-        if (!seatMap.isSeatAvailable(row, col)) {
-            throw new SeatNotAvailableException("Seat is already booked");
-        }
+    public void reserveSeat(Passenger passenger, String seat) {
+        int row = seatMap.getRow(seat);
+        int col = seatMap.getColumn(seat);
         try {
             PassengerFileHandler.savePassenger(passenger);
             seatMap.assignPassenger(row, col, passenger);
@@ -23,6 +24,7 @@ public class Flight implements Reservable, PassengerViewable {
             System.out.println("Failed to save passenger to file: " + e.getMessage());
         }
     }
+
 
     @Override
     public void displaySeats() {
@@ -33,4 +35,7 @@ public class Flight implements Reservable, PassengerViewable {
         return seatMap;
     }
 
+    public Boolean isFlightFull() {
+        return (passengers.size() >= maxSeats);
+    }
 }

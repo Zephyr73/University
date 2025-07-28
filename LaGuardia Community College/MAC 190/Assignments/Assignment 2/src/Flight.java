@@ -24,6 +24,17 @@ public class Flight implements Reservable, PassengerViewable {
             System.out.println("Failed to save passenger to file: " + e.getMessage());
         }
     }
+    public void removePassenger(String seat) {
+        int row = seatMap.getRow(seat);
+        int col = seatMap.getColumn(seat);
+        Passenger found = null;
+        for (Passenger passenger : passengers) {
+            if (seatMap.getRow(passenger.getSeatNumber()) == row && seatMap.getColumn(passenger.getSeatNumber()) == col) {
+                found = passenger;
+            }
+        }
+        passengers.remove(found);
+    }
 
 
     @Override

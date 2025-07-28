@@ -52,6 +52,9 @@ public class SeatMap {
                 }
             }
         }
+        if (count == 0) {
+            System.out.print("None");
+        }
         System.out.println();
     }
 

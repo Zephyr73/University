@@ -23,6 +23,7 @@ public class Admin extends Person implements Cancellable, AdminViewable {
             } else{
                 seatMap.clearSeat(row, col);
                 PassengerFileHandler.deletePassenger(seatNumber);
+                flight.removePassenger(seatNumber);
                 System.out.println("Seat " + seatNumber + " reservation cancelled\n");
             }
         } catch (SeatNotAvailableException | NumberFormatException | StringIndexOutOfBoundsException | IOException e) {
@@ -54,6 +55,11 @@ public class Admin extends Person implements Cancellable, AdminViewable {
                     System.out.print("Enter number of Rows: ");
                     int rows = input.nextInt();
                     input.nextLine();
+                    if (rows > 7 || rows <= 0) {
+                        System.out.println("Invalid rows, enter value between 1 and 7");
+                        continue;
+                    }
+
                     if (flight == null) {
                         flight = new Flight(rows);
                         System.out.println("Seat rows set to " + rows + "\n");

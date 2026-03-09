@@ -11,6 +11,9 @@ This repository was originally created as a backup for my CSE classwork and assi
 | LaGuardia Community College |[MAC 101][MAC 101 dir] | [Introduction to C++][MAC 101]        | C++      |
 | LaGuardia Community College |[MAC 125][MAC 125 dir] | [Advanced C++ Programming][MAC 125]   | C++      |
 | LaGuardia Community College |[MAC 190][MAC 190 dir] | [Object Oriented Programming][MAC 190]| Java     |
+| LaGuardia Community College |[MAC 281][MAC 281 dir] | [Discrete Structures][MAC 281]        | C++      |
+| LaGuardia Community College |[MAC 283][MAC 283 dir] | [Computer Organization and Assembly][MAC 283]| Assembly |
+| LaGuardia Community College |[MAC 286][MAC 286 dir] | [Data Structures][MAC 286]            | Java     |
 
 ## For contributing
 Please follow these guidelines when contributing to maintain consistency and clarity across the repository:
@@ -76,7 +79,7 @@ Repo/
 [CSE 421]: https://www.bracu.ac.bd/avilable-program/bachelor-science-computer-science-cs#:~:text=Lab%2BFinal%20Exam-,CSE%20421%3A%20Computer%20Networks%20(3%20credits),the%20course%20includes%20a%20compulsory%203%2Dhour%20laboratory%20work%20alternate%20week.,-Prerequisite%3A%20CSE
 [CSE 421 dir]: https://github.com/Zephyr73/University/tree/main/BRAC%20University/CSE%20421
 
-[MAC 101]: https://laguardia.catalog.cuny.edu/courses/0761321https://laguardia.catalog.cuny.edu/courses/0761321
+[MAC 101]: https://laguardia.catalog.cuny.edu/courses/0761321
 [MAC 101 dir]: https://github.com/Zephyr73/University/tree/main/LaGuardia%20Community%20College/MAC%20101
 
 [MAC 125]: https://laguardia.catalog.cuny.edu/courses/0761351
@@ -84,3 +87,12 @@ Repo/
 
 [MAC 190]: https://laguardia.catalog.cuny.edu/courses/0761361
 [MAC 190 dir]: https://github.com/Zephyr73/University/tree/main/LaGuardia%20Community%20College/MAC%20190
+
+[MAC 281]: https://laguardia.catalog.cuny.edu/courses/0761371
+[MAC 281 dir]: https://github.com/Zephyr73/University/tree/main/LaGuardia%20Community%20College/MAC%20281
+
+[MAC 283]: https://laguardia.catalog.cuny.edu/courses/0761381
+[MAC 283 dir]: https://github.com/Zephyr73/University/tree/main/LaGuardia%20Community%20College/MAC%20283
+
+[MAC 286]: https://laguardia.catalog.cuny.edu/courses/0761391
+[MAC 286 dir]: https://github.com/Zephyr73/University/tree/main/LaGuardia%20Community%20College/MAC%20286

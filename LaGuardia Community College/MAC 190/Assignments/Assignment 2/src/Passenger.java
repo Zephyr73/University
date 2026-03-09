@@ -15,10 +15,9 @@ public class Passenger extends Person {
     public static void launchPassengerMenu(Scanner input, Flight flight) {
         while (true) {
             System.out.println("Passenger Mode");
-            System.out.println("--- Entered Passenger menu ---");
-            System.out.println("|__ 1. View Seat Layout");
-            System.out.println("|__ 2. Book Seat");
-            System.out.println("|__ 3. Go Back");
+            System.out.println("├── 1. View Seat Layout");
+            System.out.println("├── 2. Book Seat");
+            System.out.println("└── 3. Go Back");
             System.out.print("Choice: ");
 
             try {

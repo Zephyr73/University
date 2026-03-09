@@ -17,10 +17,10 @@ public class Main {
 
         while(true) {
             try {
-                System.out.println("Enter mode: ");
-                System.out.println("1: Admin");
-                System.out.println("2: Passenger");
-                System.out.println("3: Exit");
+                System.out.println("Main Menu");
+                System.out.println("├── 1: Admin");
+                System.out.println("├── 2: Passenger");
+                System.out.println("└── 3: Exit");
                 System.out.print("Choice: ");
                 int choice = input.nextInt();
                 input.nextLine();

@@ -39,18 +39,24 @@ public class Admin extends Person implements Cancellable, AdminViewable {
     public Flight launchAdminMenu(Scanner input, Flight flight) {
         while (true) {
             System.out.println("Admin Mode");
-            System.out.println("|__ 1. Set Seat Rows");
-            System.out.println("|__ 2. View Seat Rows");
-            System.out.println("|__ 3. Cancel Seats");
-            System.out.println("|__ 4. View CustomerDetails.txt");
-            System.out.println("|__ 5. Go Back");
+            System.out.println("├── 1. Set Seat Rows");
+            System.out.println("├── 2. View Seat Rows");
+            System.out.println("├── 3. Cancel Seats");
+            System.out.println("├── 4. View CustomerDetails.txt");
+            System.out.println("└── 5. Go Back");
             System.out.print("Choice: ");
 
             try {
-                int adminChoice = input.nextInt();
-                input.nextLine();
+                String adminChoiceStr = input.nextLine().trim();
                 System.out.println();
 
+                int adminChoice;
+                try {
+                    adminChoice = Integer.parseInt(adminChoiceStr);
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid input. Enter a number\n");
+                    continue;
+                }
                 if (adminChoice == 1) {
                     System.out.print("Enter number of Rows: ");
                     int rows = input.nextInt();
@@ -87,14 +93,14 @@ public class Admin extends Person implements Cancellable, AdminViewable {
                     System.out.println("Returning to main menu...\n");
                     break;
                 } else {
-                    System.out.println("Invalid choice. Please try again.\n");
+                    System.out.println("Invalid choice. Try again\n");
                 }
             } catch (FlightNotFoundException e) {
                 System.out.println(e.getMessage());
             } catch (IOException e) {
                 System.out.println("Failed to read file" + e.getMessage());
-            } catch (InputMismatchException e) {
-                System.out.println("Invalid input. Please enter a number.\n");
+            } catch (InvalidInputException | InputMismatchException e) {
+                System.out.println("Invalid input. Enter a number\n");
                 input.nextLine();
                 continue;
             }

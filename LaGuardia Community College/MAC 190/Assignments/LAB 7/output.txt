@@ -1,0 +1,4 @@
+Item name: tomato Price: $4.0 Quantity: 5
+Item name: coke Price: $2.0 Quantity: 3
+Item name: pepsi Price: $3.0 Quantity: 3
+Total Price: 35.0

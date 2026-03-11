@@ -1,0 +1,11 @@
+University.code-workspace
+LaGuardia Community College/.vscode
+sync.bat
+.vscode
+**/*.exe
+.idea
+*.iml
+out/
+LaGuardia Community College/MAC 190/Assignments/Assignment 2/data/CustomerDetails.txt
+LaGuardia Community College/MAC 190/Assignments/Assignment 2/data/Checklist.md
+LaGuardia Community College/MAC 190/Assignments/Assignment 2/src/Main_Old.java

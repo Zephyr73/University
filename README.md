@@ -1,6 +1,6 @@
 # University
-This repository was originally created as a backup for my CSE classwork and assignments. However, I have now decided to make it public to allow individuals from various institutions around the world to contribute.
 
+This repository was originally created as a backup for my CSE classwork and assignments. However, I have now decided to make it public to allow individuals from various institutions around the world to contribute.
 
 | Institution                 | Course                | Description                           | Language |
 |-----------------------------|-----------------------|---------------------------------------|----------|
@@ -16,7 +16,9 @@ This repository was originally created as a backup for my CSE classwork and assi
 | LaGuardia Community College |[MAC 286][MAC 286 dir] | [Data Structures][MAC 286]            | Java     |
 
 ## For contributing
+
 Please follow these guidelines when contributing to maintain consistency and clarity across the repository:
+
 ### ⚠️ Privacy Notice
 
 Please **do not include any personal information** in your contributions.
@@ -29,6 +31,7 @@ Please **do not include any personal information** in your contributions.
 All contributions should remain **anonymous and general-purpose**, so they can be shared publicly without privacy concerns.
 
 ### Folder Structure
+
 - **Do not rename the parent directories:** The folder names `Assignments`, `Classwork`, `Slides`, and `Questions` must remain exactly as shown, unless you have a different type of folder content. This ensures consistency across all courses and institutions.
 - Assignments and Classwork should have similar nested structures:
   - Use numbered folders like `Assignment 1`, `Class 1`.
@@ -63,6 +66,7 @@ Repo/
 ```
 
 ### README Table Guidelines
+
 - **Add your course to the table** in the same format.
 - **Sort the table rows in ascending alphabetical order and course code**.
 - Leave **one blank row** between **institutes** starting with different letters.

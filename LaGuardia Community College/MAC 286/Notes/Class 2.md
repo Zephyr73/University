@@ -182,3 +182,7 @@ public class OrdArray {
 - Insertion: O(n) - In the worst case, it may have to shift all elements to insert a new value.
 - Deletion: O(n) - In the worst case, it may have to shift all elements after the deleted element.
 - Max: O(1) - The maximum value is always at the end of the array.
+
+---
+
+## Simple Sorting

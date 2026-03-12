@@ -11,7 +11,7 @@ This repository was originally created as a backup for my CSE classwork and assi
 | LaGuardia Community College |[MAC 101][MAC 101 dir] | [Introduction to C++][MAC 101]        | C++      |
 | LaGuardia Community College |[MAC 125][MAC 125 dir] | [Advanced C++ Programming][MAC 125]   | C++      |
 | LaGuardia Community College |[MAC 190][MAC 190 dir] | [Object Oriented Programming][MAC 190]| Java     |
-| LaGuardia Community College |[MAC 281][MAC 281 dir] | [Discrete Structures][MAC 281]        | C++      |
+| LaGuardia Community College |[MAC 281][MAC 281 dir] | [Discrete Structures][MAC 281]        | Pseudocode |
 | LaGuardia Community College |[MAC 283][MAC 283 dir] | [Computer Organization and Assembly][MAC 283]| Assembly |
 | LaGuardia Community College |[MAC 286][MAC 286 dir] | [Data Structures][MAC 286]            | Java     |
 

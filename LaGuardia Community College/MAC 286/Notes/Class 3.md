@@ -1,4 +1,5 @@
 # Class 3: Data Structures & Algorithms
+
 **Date:** March 12, 2026
 
 ---
@@ -8,9 +9,11 @@ This document covers the implementation and complexity analysis of three types o
 ---
 
 ## 1. LowArray (Basic Wrapper)
+
 `LowArray` is a thin wrapper around a primitive `long[]`. It shifts the responsibility of index management to the **user** of the class.
 
 ### Implementation
+
 ```java
 public class LowArray {
     private long[] a; 
@@ -32,6 +35,7 @@ public class LowArray {
 ```
 
 ### Complexity Analysis
+
 | Operation | Complexity | Description |
 | :--- | :--- | :--- |
 | **Search** | $O(1)$ | Direct access via index. |
@@ -42,9 +46,11 @@ public class LowArray {
 ---
 
 ## 2. HighArray (Encapsulated Operations)
+
 `HighArray` hides the index logic from the user. The class itself handles searching, inserting at the end, and shifting elements during deletion.
 
 ### Implementation
+
 ```java
 public class HighArray {
     private long[] a;
@@ -94,6 +100,7 @@ public class HighArray {
 ```
 
 ### Complexity Analysis
+
 | Operation | Complexity | Description |
 | :--- | :--- | :--- |
 | **Search** | $O(n)$ | Linear search through used elements. |
@@ -104,9 +111,11 @@ public class HighArray {
 ---
 
 ## 3. Ordered Array (OrdArray)
+
 `OrdArray` keeps data sorted. This enables **Binary Search**, making lookups significantly faster.
 
 ### Implementation
+
 ```java
 public class OrdArray {
     private long[] a;
@@ -159,6 +168,7 @@ public class OrdArray {
 ```
 
 ### Complexity Analysis
+
 | Operation | Complexity | Description |
 | :--- | :--- | :--- |
 | **Search** | $O(\log n)$ | **Binary Search** (splitting range in half). |
@@ -169,7 +179,9 @@ public class OrdArray {
 ---
 
 ## 4. Sorting Algorithms
+
 ### Bubble Sort
+
 A simple but inefficient sort that works by repeatedly swapping adjacent elements if they are in the wrong order.
 
 ```java

@@ -55,3 +55,6 @@
 
 ---
 
+## Sort Methods
+
+### Selection Sort

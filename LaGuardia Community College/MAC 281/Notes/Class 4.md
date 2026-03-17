@@ -58,3 +58,8 @@
 ## Sort Methods
 
 ### Selection Sort
+
+```
+For i = 1 to n
+    Find next smallest element
+    

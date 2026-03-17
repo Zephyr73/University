@@ -9,6 +9,7 @@
 | **Bubble Sort** | $O(n^2)$ | $O(1)$ | $O(n^2)$ | $O(n^2)$ |
 | **Selection Sort** | $O(n^2)$ | $O(1)$ | $O(n)$ | $O(n^2)$ |
 | **Insertion Sort** | $O(n^2)$ | $O(1)$ | $O(n^2)$ | $O(n^2)$ |
+| **Quick Sort** | $O(n \log n)$ | $O(\log n)$ | $O(n \log n)$ | $O(n \log n)$ |
 
 > Space complexity is the amount of extra space used by the algorithm, not counting the input data.
 

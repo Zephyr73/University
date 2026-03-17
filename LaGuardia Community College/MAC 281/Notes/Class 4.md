@@ -60,6 +60,18 @@
 ### Selection Sort
 
 ```
-For i = 1 to n
-    Find next smallest element
-    
+ For i = 1 to n
+    Loc <- FindMinLoc(A)
+    B[i] <- A[Loc]
+    A[Loc] <- ∞
+```
+O(n^2) time complexity due to nested loops.
+
+### Swap Sort
+
+```
+ For i = 1 to n
+    Loc <- FindMinLoc(A)
+    Swap A[i] and A[Loc]
+```
+O(n^2) time complexity due to nested loops.

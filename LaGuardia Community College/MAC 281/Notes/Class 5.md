@@ -63,3 +63,40 @@ function isPalindrome(s):
     else:
         return (s[0] == s[length of s - 1]) and isPalindrome(s[1:length of s - 1])
 ```
+
+---
+
+## Quick Sort Algorithm
+
+Example: 
+List = [8, 2, 1, 9, 7, 15, 3, 4, 11]
+Pivot = 8
+New List = [2, 1, 7, 3, 4]  [8]  [9, 15, 11]
+
+```
+Sorting left side:
+    List = [2, 1, 7, 3, 4]
+    Pivot = 2
+    New List = [1]  [2]  [7, 3, 4]
+    Sorting right side:
+    List = [7, 3, 4]
+    Pivot = 7
+    New List = [3, 4]  [7]  []
+    Sorting left side:
+        List = [3, 4]
+        Pivot = 3
+        New List = []  [3]  [4]
+Sorted Left Side = [1, 2, 3, 4, 7]
+
+Sorting right side:
+    List = [9, 15, 11]
+    Pivot = 9
+    New List = []  [9]  [15, 11]
+    Sorting right side:
+        List = [15, 11]
+        Pivot = 15
+        New List = [11]  [15]  []
+Sorted Right Side = [9, 11, 15]
+
+Final Sorted List = [1, 2, 3, 4, 7, 8, 9, 11, 15]
+```

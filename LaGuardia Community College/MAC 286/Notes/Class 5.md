@@ -17,3 +17,6 @@ Complexity:
 
 - Time: $O(1)$ for push and pop operations
 
+## Queue (Array Implementation)
+
+- first in, first out (FIFO)

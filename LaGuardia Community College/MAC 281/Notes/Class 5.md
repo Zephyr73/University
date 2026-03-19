@@ -68,7 +68,7 @@ function isPalindrome(s):
 
 ## Quick Sort Algorithm
 
-Example: 
+Example:
 List = [8, 2, 1, 9, 7, 15, 3, 4, 11]
 Pivot = 8
 New List = [2, 1, 7, 3, 4]  [8]  [9, 15, 11]
@@ -100,3 +100,29 @@ Sorted Right Side = [9, 11, 15]
 
 Final Sorted List = [1, 2, 3, 4, 7, 8, 9, 11, 15]
 ```
+
+Pseudocode for Quick Sort:
+
+```pseudocode
+QuickSort(A,i,j):
+    pivotVal = A[i]
+    pivotLoc = i
+    bottomLoc = j
+    while (pivotLoc < bottomLoc)
+        if(a[pivotLoc] < pivotVal)
+            a[pivotLoc] = a[bottomLoc]
+            pivotLoc = pivotLoc + 1
+            a[bottomLoc] = a[pivotLoc]
+            a[bottomLoc] = pivotVal
+        else
+            bottomLoc = bottomLoc - 1
+    if (i < pivotLoc) Call QuickSort(A,i,pivotLoc-1)
+    if (pivotLoc < j) Call QuickSort(A,pivotLoc+1,j)
+```
+
+### Choosing a Pivot
+
+- First element
+- Last element
+- Random element
+- Median element (Median of the first, middle, and last elements, Highly recommended)

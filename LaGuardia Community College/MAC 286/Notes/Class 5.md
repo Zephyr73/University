@@ -11,3 +11,9 @@ Stack allows you to only access the top/last element, while a queue allows you t
 ## Stack (Array Implementation)
 
 - last in, first out (LIFO)
+
+Complexity:
+
+
+- Time: $O(1)$ for push and pop operations
+

@@ -59,4 +59,17 @@ class LinkList {
         System.out.println("");
     }
     //-------------------------------------------------------------
+
+    public boolean isEmpty() {
+        return (first == null);
+    }
+
+    public Link deleteFirst() {
+        if (isEmpty()) {
+            return null;
+        }
+        Link temp = first;
+        first = first.next;
+        return temp;
+    }
 }  // end class LinkList

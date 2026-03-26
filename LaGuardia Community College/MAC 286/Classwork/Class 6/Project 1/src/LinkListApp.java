@@ -22,5 +22,13 @@ class LinkListApp {
             System.out.println("Can't delete link");
 
         theList.displayList();              // display list
+
+        System.out.println(theList.isEmpty());
+        Link deleted = theList.deleteFirst();
+        if (deleted != null) {
+            System.out.println("Deleted first link with key " + deleted.iData);
+        }
+        theList.displayList();              // display list
+
     }  // end main()
 }  // end class LinkListApp

@@ -6,9 +6,9 @@ class Link
     public Link(int id) // constructor
     {
         iData = id;                 // initialize data                // ('next' is automatically
-    }                           //  set to null)
+    }                           //  set to null
     //-------------------------------------------------------------
-    public void displayLink()      // display ourself
+    public void displayLink()      // display ourselves
     {
         System.out.print("(" + iData + ")");
     }

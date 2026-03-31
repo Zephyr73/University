@@ -30,5 +30,8 @@ class LinkListApp {
         }
         theList.displayList();              // display list
 
+        theList.insertLast(99);
+        theList.displayList();
+
     }  // end main()
 }  // end class LinkListApp

@@ -72,4 +72,17 @@ class LinkList {
         first = first.next;
         return temp;
     }
+
+    public void insertLast(int id) {
+        Link newLink = new Link(id);
+        if (isEmpty()) {
+            first = newLink;
+            return;
+        }
+        Link current = first;
+        while (current.next != null) {
+            current = current.next;
+        }
+        current.next = newLink;
+    }
 }  // end class LinkList

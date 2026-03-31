@@ -84,5 +84,29 @@ class LinkList {
             current = current.next;
         }
         current.next = newLink;
+
+        //-------------------------------------------------------------
+    }
+    public Link deleteLast() {
+        if (isEmpty()) {
+            return null;
+        }
+
+        if (first.next == null) {
+            Link temp = first;
+            first = null;
+            return temp;
+        }
+
+        Link current = first;
+        Link previous = first;
+
+        while (current.next != null) {
+            previous = current;
+            current = current.next;
+        }
+
+        previous.next = null;
+        return current;
     }
 }  // end class LinkList

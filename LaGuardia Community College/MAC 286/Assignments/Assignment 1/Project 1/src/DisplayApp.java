@@ -1,4 +1,5 @@
 import java.io.*;
+
 class DisplayApp
 {
     public static void main(String[] args) throws IOException
@@ -44,6 +45,14 @@ class DisplayApp
         } // end while
     } // end main()
     //-------------------------------------------------------------
+    //-------------------------------------------------------------
+    public static String getString() throws IOException
+    {
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
+        return br.readLine();
+    }
+
     public static char getChar() throws IOException
     {
         String s = getString();

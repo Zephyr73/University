@@ -32,6 +32,8 @@ class LinkListApp {
 
         theList.insertLast(99);
         theList.displayList();
+        theList.deleteLast();
+        theList.displayList();
 
     }  // end main()
 }  // end class LinkListApp

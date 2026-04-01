@@ -92,11 +92,11 @@ Repo/
 [MAC 190]: https://laguardia.catalog.cuny.edu/courses/0761361
 [MAC 190 dir]: https://github.com/Zephyr73/University/tree/main/LaGuardia%20Community%20College/MAC%20190
 
-[MAC 281]: https://laguardia.catalog.cuny.edu/courses/0761371
+[MAC 281]: https://laguardia.catalog.cuny.edu/courses/1184661
 [MAC 281 dir]: https://github.com/Zephyr73/University/tree/main/LaGuardia%20Community%20College/MAC%20281
 
 [MAC 283]: https://laguardia.catalog.cuny.edu/courses/0761381
 [MAC 283 dir]: https://github.com/Zephyr73/University/tree/main/LaGuardia%20Community%20College/MAC%20283
 
-[MAC 286]: https://laguardia.catalog.cuny.edu/courses/0761391
+[MAC 286]: https://laguardia.catalog.cuny.edu/courses/0761551
 [MAC 286 dir]: https://github.com/Zephyr73/University/tree/main/LaGuardia%20Community%20College/MAC%20286

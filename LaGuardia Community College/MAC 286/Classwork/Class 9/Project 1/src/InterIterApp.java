@@ -90,5 +90,17 @@ class InterIterApp
         String s = getString();
         return Integer.parseInt(s);
     }
+    public void skip(int n) {
+        if (n <= 0 || current == null) {
+            return;
+        }
+        for (int i = 0; i < n; i++) {
+            if (current.next == null) {
+                return;
+            }
+            previous = current;
+            current = current.next;
+        }
+    }
     //-------------------------------------------------------------
 }  // end class InterIterApp

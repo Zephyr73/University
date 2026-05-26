@@ -64,5 +64,17 @@ class Graph
         }
         return count;
     }
+
+    //-------------------------------------------------------------
+    public int countDegree(int v)
+    {
+        int count = 0;
+        for(int i=0; i<nVerts; i++)
+        {
+            if(adjMat[v][i] == 1)
+                count++;
+        }
+        return count;
+    }
     //-------------------------------------------------------------
 }  // end class Graph
